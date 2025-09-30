@@ -5,16 +5,16 @@ This project trains and evaluates a machine learning model to predict car sellin
 Key steps in cars.py:
 1) Load dataset (cardekho.csv) with pandas
    
-3) Define features & target
+2) Define features & target
 - Target: selling_price
 - Features: numerical columns such as year, km_driven, seats, etc.
 - Dropped: text/categorical fields (name, fuel, seller_type, transmission, owner, max_power)
   
-4) Train/test split (80/20)
+3) Train/test split (80/20)
    
-5) Model: RandomForestRegressor (scikit-learn) with fixed random_state for reproducibility
+4) Model: RandomForestRegressor (scikit-learn) with fixed random_state for reproducibility
 
-6) Evaluation metrics:
+5) Evaluation metrics:
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - R^2 Score (variance explained)
