@@ -2,7 +2,7 @@
 
 This project trains and evaluates a machine learning model to predict car selling prices using the CarDekho dataset from Kaggle. It demonstrates a full ML workflow: data loading, preprocessing, model training, and performance evaluation.
 
-Key steps in cars.py:
+## Key steps in cars.py:
 1) Load dataset (cardekho.csv) with pandas
    
 2) Define features & target
